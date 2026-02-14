@@ -17,13 +17,12 @@ This tool streamlines the conceptual design phase for SUCAVs by automating the c
 
 ## 🧮 How It Works
 The code follows a standard conceptual design workflow:
-1.  **Input Vector:** User defines the mission profile and constraints.
-2.  **Geometry Sizing:** Initial sizing based on constraint analysis.
-3.  **Aerodynamic Solver:**
+1.  **Input Vector:** User defines the design parameters and constraints.
+2.  **Aerodynamic Solver:**
     * Calculates Wave Drag using cross-sectional area distribution.
     * Calculates Friction Drag using component build-up method.
     * Interpolates non-linear stability derivatives.
-4.  **Output:** Plots of $C_L$ vs $\alpha$ and Drag Polars.
+3.  **Output:** Aerodynamic Performace values (L/D, Cd0, Cdw,K',K'',Cd0wing,Cd0fuselage)
 
 ## 🛠️ Tech Stack
 * **Python:** Core logic and calculation engine.
@@ -33,7 +32,7 @@ The code follows a standard conceptual design workflow:
 ## 🚀 Getting Started
 ```bash
 # Clone the repository
-git clone [https://github.com/YourUsername/SUCAV-Aerodynamic-Designer.git](https://github.com/YourUsername/SUCAV-Aerodynamic-Designer.git)
+git clone [https://github.com/AdityaJain0902/SUCAV-Aerodynamic-Designer.git](https://github.com/AdityaJain0902/SUCAV-Aerodynamic-Designer.git)
 
 # Install dependencies
 pip install numpy matplotlib scipy
